@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #686565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 98vw;
+    height: 80vh;
+    /* background-color: #ffff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#back{
+    width: 2.7rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#next{
+    width: 3rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
